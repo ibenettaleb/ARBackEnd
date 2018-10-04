@@ -1,0 +1,40 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "Rest API For Kafka Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibenettaleb/restAPIKafka.git"
+  },
+  "keywords": [
+    "Rest",
+    "API",
+    "NodeJS",
+    "Kafka",
+    "ExpressJS"
+  ],
+  "author": "Abdeljalil BENETTALEB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibenettaleb/restAPIKafka/issues"
+  },
+  "homepage": "https://github.com/ibenettaleb/restAPIKafka#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "kafka-node": "^2.4.1",
+    "mongoose": "^5.0.11",
+    "nodemon": "^1.17.2",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
