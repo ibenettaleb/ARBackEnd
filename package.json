@@ -26,7 +26,7 @@
   "homepage": "https://github.com/ibenettaleb/restAPIKafka#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "kafka-node": "^2.4.1",
     "mongoose": "^5.0.11",
     "nodemon": "^1.17.2",
